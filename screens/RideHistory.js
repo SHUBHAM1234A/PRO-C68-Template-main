@@ -6,7 +6,7 @@ export default class RideHistoryScreen extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.text}>Ride History Screen</Text>
-        <Text style={styles.smoltext}> Shows how much you have ridden</Text>
+        <Text style={styles.smoltext}>Shows how much and when you have ridden</Text>
       </View>
     );
   }

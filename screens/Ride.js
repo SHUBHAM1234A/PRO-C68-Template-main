@@ -6,7 +6,7 @@ export default class RideScreen extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.text}>Ride Screen</Text>
-        <Text style={styles.smoltext}>Counts how much you are riding</Text>
+        <Text style={styles.smoltext}>Rent any nearby ride to go anywhere</Text>
       </View>
     );
   }
