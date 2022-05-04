@@ -5,7 +5,7 @@ import RideScreen from "../screens/Ride";
 import RideHistoryScreen from "../screens/RideHistory";
 
 //The Icon Library
-import Icon from "react-native-vector-icons/FontAwesome";
+import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
 const Tab = createBottomTabNavigator();
 
@@ -18,6 +18,7 @@ export default class BottomTabNavigator extends Component {
             name="Ride"
             component={RideScreen}
             options={{
+              tabBarLabel: "Ride",
               tabBarIcon: ({ color, size }) => (
                 <Icon name="car" color={color} size={size} />
               ),
@@ -32,6 +33,7 @@ export default class BottomTabNavigator extends Component {
             name="Ride History"
             component={RideHistoryScreen}
             options={{
+              tabBarLabel: "Ride History",
               tabBarIcon: ({ color, size }) => (
                 <Icon name="history" color={color} size={size} />
               ),
